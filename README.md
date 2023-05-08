@@ -28,20 +28,20 @@ source = "github.com/seu-usuario/meu-projeto/modulo-s3/s3"
 module "s3" {
 source = "github.com/seu-usuario/meu-projeto/modulo-s3/s3"
 
-makefile
-Copy code
 bucket_name = "nome-do-bucket"
 tags = {
 	Name = "nome-do-bucket"
 	Environment = "producao"
 	Project = "meu-projeto"
 	CreatedBy = "Terraform"
+  }
 }
-}</pre>
+</pre>
 
-	<li>Execute o comando <code>terraform init</code> para inicializar o diretório do Terraform.</li>
+<li>Execute o comando <code>terraform init</code> para inicializar o diretório do Terraform.</li>
 
-	<li>Execute o comando <code>terraform apply</code> para criar o bucket S3.</li>
+<li>Execute o comando <code>terraform apply</code> para criar o bucket S3.</li>
+
 </ol>    
 
 <hr>
