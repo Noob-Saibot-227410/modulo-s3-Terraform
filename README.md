@@ -23,8 +23,8 @@ source = "github.com/seu-usuario/meu-projeto/modulo-s3/s3"
 }</pre>
 
 
-	<li>Configure as variáveis do módulo:</li>
-	<pre>
+<li>Configure as variáveis do módulo:</li>
+<pre>
 module "s3" {
 source = "github.com/seu-usuario/meu-projeto/modulo-s3/s3"
 
@@ -51,9 +51,9 @@ tags = {
 <p>Neste projeto foram utilizadas as seguintes tecnologias:</p>
 
 <ul>
-	<li><i class="fab fa-aws"></i> Amazon Web Services</li>
+	<li><i class="fab fa-aws"></i> Amazon Web Services (AWS)</li>
 	<li><i class="fab fa-terraform"></i> Terraform</li>
-	<li><i class="fab fa-s3"></i> Amazon S3</li>
+	<li><i class="fab fa-s3"></i> Amazon Simple Storage Service (S3)</li>
 </ul>
 </body>
 </html>
